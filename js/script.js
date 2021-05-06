@@ -1,35 +1,34 @@
 var quotes = [
   {
-    quote: "No Grit, No Pearl.",
-    source: "Anonymous",
-    tags: ["Grit", "Determination", "Success"]
+    quote: "Jangan menjelaskan tentang dirimu kepada siapa pun, karena yang menyukaimu tidak butuh itu. Dan yang membencimu tidak percaya itu.",
+    source: "Ali bin Abi Thalib",
+    //tags: ["Grit","Determination","Success"]
   },
   {
-    quote: "You miss 100% of the shots you don't take.",
-    source: "Wayne Gretzky",
-    tags: ["Just Do It", "Sports"]
+    quote: "Kita adalah makhluk yang suka menyalahkan dari luar, tidak menyadari bahwa masalah biasanya dari dalam.",
+    source: "Abu Hamid Al Ghazali",
+    //tags: ["Just Do It","Sports"]
   },
   {
-    quote: "Fall seven times, stand up eight.",
-    source: "Japanese Proverb",
-    tags: ["Determination", "Grit"]
+    quote: "Ilmu tanpa agama adalah suatu kecacatan, dan agama tanpa ilmu merupakan kebutaan",
+    source: "Unknown",
+    //tags: ["Determination","Grit"]
   },
   {
-    quote: "I have not failed. I've just found 10,000 ways that won&#39;t work.",
-    source: "Thomas A. Edison",
-    tags: ["Perserverance", "Innovation"]
+    quote: "Orang berilmu pengetahuan ibarat gula yang mengundang banyak semut. Dia menjadi cahaya bagi diri dan sekelilingnya.",
+    source: "Abdullah Gymnastiar",
+    //tags: ["Perserverance","Innovation"]
   },
   {
-    quote: "Done is better than perfect.",
-    source: "Sheryl Sandberg",
-    tags: ["Just Do It", "Tech"]
+    quote: "Kerjakanlah urusan duniamu seakan-akan kamu hidup selamanya. Dan laksanakanlah urusan akhiratmu seakan-akan kamu akan mati besok.",
+    source: "Unknown",
+    //tags: ["Just Do It","Tech"]
   },
   {
-    quote: "The only thing we have to fear is fear itself.",
-    source: "Franklin D. Roosevelt",
-    citation: "First Inaugural Address",
-    year: 1933,
-    tags: ["Hope", "Politics"]
+    quote: "Ketika terbukti salah, orang bijak akan memperbaiki dirinya sendiri dan orang yang bodoh akan terus berdebat.",
+    source: "Ali bin Abi Thalib",
+    //citation: "First Inaugural Address",
+    //tags: ["Hope","Politics"]
   }
 ];
 
@@ -41,8 +40,7 @@ var quotes = [
 // Use it as you please, 'cuz you can't, like, own a color, man.
 // I deleted colors that didn't provide sufficient contrast or seemed particularly grating.
 
-var CSS_COLOR_NAMES = ["Blue", "BlueViolet", "Brown", "BurlyWood", "CadetBlue", "Chocolate", "Coral", "CornflowerBlue", "Crimson", "DarkBlue", "DarkCyan", "DarkGoldenRod", "DarkGray", "DarkGrey", "DarkGreen", "DarkKhaki", "DarkMagenta", "DarkOliveGreen", "Darkorange", "DarkOrchid", "DarkRed", "DarkSalmon", "DarkSeaGreen", "DarkSlateBlue", "DarkSlateGray", "DarkSlateGrey", "DarkTurquoise", "DarkViolet", "DeepPink", "DeepSkyBlue", "FireBrick", "ForestGreen", "Fuchsia", "Green", "HotPink", "IndianRed", "Indigo", "Magenta", "Maroon", "MediumAquaMarine", "MediumBlue", "MediumOrchid", "MediumPurple", "MediumSeaGreen", "MediumSlateBlue", "MediumTurquoise", "MediumVioletRed", "MidnightBlue", "Olive", "OliveDrab", "Orange", "OrangeRed", "Orchid", "Pink", "Plum", "PowderBlue", "Purple", "RosyBrown", "RoyalBlue", "SaddleBrown", "Salmon", "SlateBlue", "SlateGray", "SlateGrey", "SpringGreen", "SteelBlue", "Teal", "Thistle", "Tomato", "Turquoise", "Violet"];
-
+var CSS_COLOR_NAMES = ["White"];
 var quoteIndex = 0;
 var colorIndex = 0;
 var quotesUsed = [];
