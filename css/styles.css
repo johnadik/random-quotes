@@ -26,6 +26,7 @@ The .container did not originally have a position property, so I needed to add t
   position: relative;
   overflow: hidden;
   transition: all 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #button-box {
@@ -96,7 +97,7 @@ The .container did not originally have a position property, so I needed to add t
   left: 50%;
   margin-left: -6em;
   bottom: 150px;
-  border-radius: 4px;
+  border-radius: 16px;
   border: 2px solid #000;
   color: #000;
   background-color: rgba(255, 255, 255, 0);
